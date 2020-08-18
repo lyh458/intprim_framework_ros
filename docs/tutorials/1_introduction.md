@@ -25,7 +25,7 @@ Here are some example trajectories of a Human-Robot interaction, which are extra
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-df = pd.read_csv("interaction.csv")
+df = pd.read_csv("../interaction.csv", header = None)
 plt.plot(np.linspace(0,100,df.shape[0]), df.iloc[:,0])
 plt.show()
 ```
@@ -35,7 +35,7 @@ plt.show()
 Example Trajectory for a Robot during interaction (ex: Robot's DOFs start at index 10):
 
 ```python
-df = pd.read_csv("interaction.csv")
+df = pd.read_csv("../interaction.csv", header = None)
 plt.plot(np.linspace(0,100,df.shape[0]), df.iloc[:,10])
 plt.show()
 ```

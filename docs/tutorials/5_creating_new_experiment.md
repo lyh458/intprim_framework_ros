@@ -21,7 +21,7 @@ In order to create an experiment, it is useful to know how the Intprim ROS frame
 
 As you can see, there are three parameter (.yaml) files that are loaded first. These files define metadata, robots, devices, and tunable parameters. The diagram below represents the execution flow after running `roslaunch intprim_framework_ros interaction_application.launch`. Note the controller node for the CoppeliaSim robots is launched for running the simulated experiments:
 
-<img src="media/roslaunch.png" width="1000" />
+<img src="../media/roslaunch.png" width="1000" />
 
 ### 1.1.1 Configuring experiments.yaml
 The experiments.yaml file contains a list of experiments that can be executed with Intprim. As you can see below, there is only one experiment in this file; however, if you have multiple experiments, you can maintain a list of them here.
