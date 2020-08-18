@@ -9,8 +9,10 @@ interaction:
     start_generation_phase: 0.07 # Start generating trajectories if estimated phase exceeds this value.
     stop_generation_phase: 1.1 # Stop generating trajectories if estimated phase exceeds this value.
     playback_factor: 1.0
-    default_record_dir: "<path_to_recorded_data_dir>"
-    default_playback_dir: "<path_to_rosbags_dir>"
+    # default_record_dir: "<path_to_recorded_data_dir>"
+    # default_playback_dir: "<path_to_rosbags_dir>"
+    default_record_dir: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/experiments/data"
+    default_playback_dir: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/experiments/rosbag"
     demo_status_topic: "/interaction_demo_status"
     demo_reset_topic: "/interaction_demo_reset"
     reset_after_demo: true

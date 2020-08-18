@@ -64,10 +64,15 @@ bip:
     scale_observations: false # Perform basis standardization
     cyclical: false # If true, the phase will roll back to 0 once it is >= 1.
     debug: false
-    import_data: "<path>/trained_bip.bip"
-    observation_noise: "<path>/observation_noise.noise"
-    mip_test_directory: "<path_to_csvs>"
-    debug_directory: "<path>/debug"
+    # Change the following path to my path
+    import_data: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/docs/tutorials/tutorial_examples/handwritten/trained_bip.bip"
+    observation_noise: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/docs/tutorials/tutorial_examples/handwritten/observation_noise.noise"
+    mip_test_directory: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/docs/tutorials/tutorial_examples/handwritten/csvs"
+    debug_directory: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/docs/tutorials/tutorial_examples/handwritten/debug"
+    # import_data: "<path>/trained_bip.bip"
+    # observation_noise: "<path>/observation_noise.noise"
+    # mip_test_directory: "<path_to_csvs>"
+    # debug_directory: "<path>/debug"
     config_name: "Config1"
     primary: false
 -   id: 1
@@ -155,9 +160,15 @@ bip:
     scale_observations: false # Perform basis standardization
     cyclical: false # If true, the phase will roll back to 0 once it is >= 1.
     debug: false
-    import_data: "<path_to_trained_model_dir>/trained_bip.bip"
-    observation_noise: "<path_to_observation_noise_dir>/observation_noise.noise"
-    mip_test_directory: "<path_to_recorded_rosbags_dir>"
-    debug_directory: "<path_to_debug_dir>"
+
+    # Change the following path to my path
+    import_data: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/docs/tutorials/tutorial_examples/coppelia/trained_bip.bip"
+    observation_noise: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/docs/tutorials/tutorial_examples/coppelia/observation_noise.noise"
+    mip_test_directory: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/docs/tutorials/tutorial_examples/coppelia/csvs"
+    debug_directory: "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/docs/tutorials/tutorial_examples/coppelia/debug"
+    # import_data: "<path_to_trained_model_dir>/trained_bip.bip"
+    # observation_noise: "<path_to_observation_noise_dir>/observation_noise.noise"
+    # mip_test_directory: "<path_to_recorded_rosbags_dir>"
+    # debug_directory: "<path_to_debug_dir>"
     config_name: "Config2"
     primary: true
