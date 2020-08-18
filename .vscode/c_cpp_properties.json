@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/lyh/Codes/hri_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/lyh/catkin_ws/src/beginner_tutorials/include/**",
+        "/home/lyh/Codes/hri_ws/src/intprim_framework_ros/include/**",
+        "/home/lyh/Codes/hri_ws/src/irl_robot_drivers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
