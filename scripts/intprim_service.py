@@ -13,7 +13,7 @@ import intprim.basis.mixture_model
 import intprim.basis.polynomial_model
 import intprim.basis.sigmoidal_model
 import intprim.basis.selection
-import intprim.util.gaussian
+# import intprim.util.gaussian
 import intprim_framework_ros.msg
 import intprim_framework_ros.srv
 import itertools
